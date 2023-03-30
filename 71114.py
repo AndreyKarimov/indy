@@ -14,3 +14,4 @@ while True:
 for key, value in sorted(unicComment.items(), key=lambda x: len(x[1]), reverse=True):
     print(f'Количество уникальных комментаторов у {key} - {len(value)}')
 
+
